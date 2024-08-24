@@ -17,11 +17,9 @@ ls
 
 # 3. Create 5 text files in dir2 named file1.txt, file2.txt, file3.txt, file4.txt, and file5.txt
 
-cd dir2
+touch dir2/file1.txt dir2/file2.txt dir2/file3.txt dir2/file4.txt dir2/file5.txt
 
-touch file1.txt file2.txt file3.txt file4.txt file5.txt
-
-ls
+ls dir2
 
 # 4. Append the words "Hello world" to dir2/file3.txt
 
